@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Capital Factory</string>
+		<key>latitude</key>
+		<string>30.268615</string>
+		<key>longitude</key>
+		<string>-97.740487</string>
+		<key>radius</key>
+		<string>100</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Timbercreek</string>
+		<key>latitude</key>
+		<real>30.256673</real>
+		<key>longitude</key>
+		<real>-97.75236200000001</real>
+		<key>radius</key>
+		<integer>100</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Conjunctured</string>
+		<key>latitude</key>
+		<real>30.26453</real>
+		<key>longitude</key>
+		<real>-97.72848</real>
+		<key>radius</key>
+		<integer>100</integer>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>TechRanch</string>
+		<key>latitude</key>
+		<real>30.382363</real>
+		<key>longitude</key>
+		<real>-97.743264</real>
+		<key>radius</key>
+		<integer>100</integer>
+	</dict>
+</array>
+</plist>

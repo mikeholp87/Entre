@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C31BA473F7742FEA71B8DC8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418EBB4A94AF42FEA2F208A9 /* libPods.a */; };
+		AF149F241970744A0015366D /* EntreWorkTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AF149F231970744A0015366D /* EntreWorkTableVC.m */; };
+		AF149F2719707A070015366D /* EntreDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AF149F2619707A070015366D /* EntreDetailsVC.m */; };
+		AF149F2B19707D7C0015366D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF149F2A19707D7C0015366D /* MapKit.framework */; };
+		AF149F2D19707D810015366D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF149F2C19707D810015366D /* CoreLocation.framework */; };
+		AF149F30197081E80015366D /* MapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AF149F2F197081E80015366D /* MapPoint.m */; };
+		AF149F32197086910015366D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF149F31197086910015366D /* QuartzCore.framework */; };
+		AF149F4D19708D8B0015366D /* EntreCheckinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AF149F4C19708D8B0015366D /* EntreCheckinVC.m */; };
+		AF149F55197092910015366D /* work-tab.png in Resources */ = {isa = PBXBuildFile; fileRef = AF149F54197092910015366D /* work-tab.png */; };
+		AF149F57197092CA0015366D /* renew-tab.png in Resources */ = {isa = PBXBuildFile; fileRef = AF149F56197092CA0015366D /* renew-tab.png */; };
+		AF149F5A1970E06A0015366D /* EntreGeofence.m in Sources */ = {isa = PBXBuildFile; fileRef = AF149F591970E06A0015366D /* EntreGeofence.m */; };
+		AF149F5E1970E46F0015366D /* regions.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF149F5D1970E46F0015366D /* regions.plist */; };
+		AF149F681970E5140015366D /* Timbercreek.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AF149F661970E5140015366D /* Timbercreek.gpx */; };
+		AF149F6A1970E89F0015366D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF149F691970E89F0015366D /* Twitter.framework */; };
+		AF149F6C1970E8D10015366D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF149F6B1970E8D10015366D /* Accounts.framework */; };
 		AF5B6BF419706AFF00F870E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B6BF319706AFF00F870E4 /* Foundation.framework */; };
 		AF5B6BF619706AFF00F870E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B6BF519706AFF00F870E4 /* CoreGraphics.framework */; };
 		AF5B6BF819706AFF00F870E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B6BF719706AFF00F870E4 /* UIKit.framework */; };
@@ -14,13 +29,14 @@
 		AF5B6C0019706AFF00F870E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5B6BFF19706AFF00F870E4 /* main.m */; };
 		AF5B6C0419706AFF00F870E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5B6C0319706AFF00F870E4 /* AppDelegate.m */; };
 		AF5B6C0719706AFF00F870E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5B6C0519706AFF00F870E4 /* Main.storyboard */; };
-		AF5B6C0A19706AFF00F870E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5B6C0919706AFF00F870E4 /* ViewController.m */; };
 		AF5B6C0C19706AFF00F870E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5B6C0B19706AFF00F870E4 /* Images.xcassets */; };
 		AF5B6C1319706AFF00F870E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B6C1219706AFF00F870E4 /* XCTest.framework */; };
 		AF5B6C1419706AFF00F870E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B6BF319706AFF00F870E4 /* Foundation.framework */; };
 		AF5B6C1519706AFF00F870E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B6BF719706AFF00F870E4 /* UIKit.framework */; };
 		AF5B6C1D19706AFF00F870E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF5B6C1B19706AFF00F870E4 /* InfoPlist.strings */; };
 		AF5B6C1F19706AFF00F870E4 /* EntreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5B6C1E19706AFF00F870E4 /* EntreTests.m */; };
+		AF5B6C2919706B2000F870E4 /* entre-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AF5B6C2819706B2000F870E4 /* entre-logo.png */; };
+		AF5B6C2D19706C7600F870E4 /* EntreRenewTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5B6C2C19706C7600F870E4 /* EntreRenewTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		418EBB4A94AF42FEA2F208A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF149F221970744A0015366D /* EntreWorkTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntreWorkTableVC.h; sourceTree = "<group>"; };
+		AF149F231970744A0015366D /* EntreWorkTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntreWorkTableVC.m; sourceTree = "<group>"; };
+		AF149F2519707A070015366D /* EntreDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntreDetailsVC.h; sourceTree = "<group>"; };
+		AF149F2619707A070015366D /* EntreDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntreDetailsVC.m; sourceTree = "<group>"; };
+		AF149F2A19707D7C0015366D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF149F2C19707D810015366D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AF149F2E197081E80015366D /* MapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPoint.h; sourceTree = "<group>"; };
+		AF149F2F197081E80015366D /* MapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPoint.m; sourceTree = "<group>"; };
+		AF149F31197086910015366D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF149F4B19708D8B0015366D /* EntreCheckinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntreCheckinVC.h; sourceTree = "<group>"; };
+		AF149F4C19708D8B0015366D /* EntreCheckinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntreCheckinVC.m; sourceTree = "<group>"; };
+		AF149F54197092910015366D /* work-tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-tab.png"; sourceTree = "<group>"; };
+		AF149F56197092CA0015366D /* renew-tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "renew-tab.png"; sourceTree = "<group>"; };
+		AF149F581970E06A0015366D /* EntreGeofence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntreGeofence.h; sourceTree = "<group>"; };
+		AF149F591970E06A0015366D /* EntreGeofence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntreGeofence.m; sourceTree = "<group>"; };
+		AF149F5D1970E46F0015366D /* regions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regions.plist; sourceTree = "<group>"; };
+		AF149F661970E5140015366D /* Timbercreek.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Timbercreek.gpx; sourceTree = "<group>"; };
+		AF149F691970E89F0015366D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		AF149F6B1970E8D10015366D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		AF149F6D1970ED740015366D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		AF5B6BF019706AFF00F870E4 /* Entre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Entre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5B6BF319706AFF00F870E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF5B6BF519706AFF00F870E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +82,16 @@
 		AF5B6C0219706AFF00F870E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF5B6C0319706AFF00F870E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF5B6C0619706AFF00F870E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF5B6C0819706AFF00F870E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF5B6C0919706AFF00F870E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF5B6C0B19706AFF00F870E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF5B6C1119706AFF00F870E4 /* EntreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5B6C1219706AFF00F870E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AF5B6C1A19706AFF00F870E4 /* EntreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EntreTests-Info.plist"; sourceTree = "<group>"; };
 		AF5B6C1C19706AFF00F870E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF5B6C1E19706AFF00F870E4 /* EntreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntreTests.m; sourceTree = "<group>"; };
+		AF5B6C2819706B2000F870E4 /* entre-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "entre-logo.png"; sourceTree = "<group>"; };
+		AF5B6C2B19706C7600F870E4 /* EntreRenewTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntreRenewTableVC.h; sourceTree = "<group>"; };
+		AF5B6C2C19706C7600F870E4 /* EntreRenewTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntreRenewTableVC.m; sourceTree = "<group>"; };
+		CDC00117206445BC9DC2D5B5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +99,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF149F6C1970E8D10015366D /* Accounts.framework in Frameworks */,
+				AF149F6A1970E89F0015366D /* Twitter.framework in Frameworks */,
+				AF149F32197086910015366D /* QuartzCore.framework in Frameworks */,
+				AF149F2D19707D810015366D /* CoreLocation.framework in Frameworks */,
+				AF149F2B19707D7C0015366D /* MapKit.framework in Frameworks */,
 				AF5B6BF619706AFF00F870E4 /* CoreGraphics.framework in Frameworks */,
 				AF5B6BF819706AFF00F870E4 /* UIKit.framework in Frameworks */,
 				AF5B6BF419706AFF00F870E4 /* Foundation.framework in Frameworks */,
+				8C31BA473F7742FEA71B8DC8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +131,7 @@
 				AF5B6C1819706AFF00F870E4 /* EntreTests */,
 				AF5B6BF219706AFF00F870E4 /* Frameworks */,
 				AF5B6BF119706AFF00F870E4 /* Products */,
+				CDC00117206445BC9DC2D5B5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +147,17 @@
 		AF5B6BF219706AFF00F870E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF149F6D1970ED740015366D /* Social.framework */,
+				AF149F6B1970E8D10015366D /* Accounts.framework */,
+				AF149F691970E89F0015366D /* Twitter.framework */,
+				AF149F31197086910015366D /* QuartzCore.framework */,
+				AF149F2C19707D810015366D /* CoreLocation.framework */,
+				AF149F2A19707D7C0015366D /* MapKit.framework */,
 				AF5B6BF319706AFF00F870E4 /* Foundation.framework */,
 				AF5B6BF519706AFF00F870E4 /* CoreGraphics.framework */,
 				AF5B6BF719706AFF00F870E4 /* UIKit.framework */,
 				AF5B6C1219706AFF00F870E4 /* XCTest.framework */,
+				418EBB4A94AF42FEA2F208A9 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +168,14 @@
 				AF5B6C0219706AFF00F870E4 /* AppDelegate.h */,
 				AF5B6C0319706AFF00F870E4 /* AppDelegate.m */,
 				AF5B6C0519706AFF00F870E4 /* Main.storyboard */,
-				AF5B6C0819706AFF00F870E4 /* ViewController.h */,
-				AF5B6C0919706AFF00F870E4 /* ViewController.m */,
+				AF5B6C2B19706C7600F870E4 /* EntreRenewTableVC.h */,
+				AF5B6C2C19706C7600F870E4 /* EntreRenewTableVC.m */,
+				AF149F221970744A0015366D /* EntreWorkTableVC.h */,
+				AF149F231970744A0015366D /* EntreWorkTableVC.m */,
+				AF149F2519707A070015366D /* EntreDetailsVC.h */,
+				AF149F2619707A070015366D /* EntreDetailsVC.m */,
+				AF149F4B19708D8B0015366D /* EntreCheckinVC.h */,
+				AF149F4C19708D8B0015366D /* EntreCheckinVC.m */,
 				AF5B6C0B19706AFF00F870E4 /* Images.xcassets */,
 				AF5B6BFA19706AFF00F870E4 /* Supporting Files */,
 			);
@@ -126,6 +185,13 @@
 		AF5B6BFA19706AFF00F870E4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF149F581970E06A0015366D /* EntreGeofence.h */,
+				AF149F591970E06A0015366D /* EntreGeofence.m */,
+				AF149F2E197081E80015366D /* MapPoint.h */,
+				AF149F2F197081E80015366D /* MapPoint.m */,
+				AF149F661970E5140015366D /* Timbercreek.gpx */,
+				AF149F5D1970E46F0015366D /* regions.plist */,
+				AF5B6C2A19706B2500F870E4 /* Images */,
 				AF5B6BFB19706AFF00F870E4 /* Entre-Info.plist */,
 				AF5B6BFC19706AFF00F870E4 /* InfoPlist.strings */,
 				AF5B6BFF19706AFF00F870E4 /* main.m */,
@@ -152,6 +218,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AF5B6C2A19706B2500F870E4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AF149F54197092910015366D /* work-tab.png */,
+				AF149F56197092CA0015366D /* renew-tab.png */,
+				AF5B6C2819706B2000F870E4 /* entre-logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF5B6C2219706AFF00F870E4 /* Build configuration list for PBXNativeTarget "Entre" */;
 			buildPhases = (
+				280B5FD4FC0049E29F2A7FEE /* Check Pods Manifest.lock */,
 				AF5B6BEC19706AFF00F870E4 /* Sources */,
 				AF5B6BED19706AFF00F870E4 /* Frameworks */,
 				AF5B6BEE19706AFF00F870E4 /* Resources */,
+				832615D2C48040CD94DCCA40 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +308,12 @@
 			files = (
 				AF5B6C0C19706AFF00F870E4 /* Images.xcassets in Resources */,
 				AF5B6BFE19706AFF00F870E4 /* InfoPlist.strings in Resources */,
+				AF149F5E1970E46F0015366D /* regions.plist in Resources */,
+				AF149F681970E5140015366D /* Timbercreek.gpx in Resources */,
+				AF5B6C2919706B2000F870E4 /* entre-logo.png in Resources */,
 				AF5B6C0719706AFF00F870E4 /* Main.storyboard in Resources */,
+				AF149F57197092CA0015366D /* renew-tab.png in Resources */,
+				AF149F55197092910015366D /* work-tab.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +327,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		280B5FD4FC0049E29F2A7FEE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		832615D2C48040CD94DCCA40 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF5B6BEC19706AFF00F870E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5B6C0A19706AFF00F870E4 /* ViewController.m in Sources */,
 				AF5B6C0419706AFF00F870E4 /* AppDelegate.m in Sources */,
+				AF5B6C2D19706C7600F870E4 /* EntreRenewTableVC.m in Sources */,
+				AF149F2719707A070015366D /* EntreDetailsVC.m in Sources */,
 				AF5B6C0019706AFF00F870E4 /* main.m in Sources */,
+				AF149F5A1970E06A0015366D /* EntreGeofence.m in Sources */,
+				AF149F241970744A0015366D /* EntreWorkTableVC.m in Sources */,
+				AF149F30197081E80015366D /* MapPoint.m in Sources */,
+				AF149F4D19708D8B0015366D /* EntreCheckinVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,26 +494,33 @@
 		};
 		AF5B6C2319706AFF00F870E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC00117206445BC9DC2D5B5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mike Holp (8EX8TYM787)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mike Holp (8EX8TYM787)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Entre/Entre-Prefix.pch";
 				INFOPLIST_FILE = "Entre/Entre-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5E7AD0EB-A76D-4E99-B796-2FBA7E707DC5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		AF5B6C2419706AFF00F870E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC00117206445BC9DC2D5B5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Holp (89S7MQVS95)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Entre/Entre-Prefix.pch";
 				INFOPLIST_FILE = "Entre/Entre-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A2D00EAD-C040-4420-8291-3DDC2F0EAE5D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +584,7 @@
 				AF5B6C2419706AFF00F870E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF5B6C2519706AFF00F870E4 /* Build configuration list for PBXNativeTarget "EntreTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +593,7 @@
 				AF5B6C2719706AFF00F870E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

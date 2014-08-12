@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EntreRenewTableVC.h
 //  Entre
 //
 //  Created by Michael Holp on 7/11/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface EntreRenewTableVC : UITableViewController
+
+@property(nonatomic,retain) NSMutableDictionary *renewDict;
 
 @end
